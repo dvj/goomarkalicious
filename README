@@ -1,0 +1,18 @@
+goomarkalicious
+
+Author: Douglas V. Johnston (goomarkalicious@dvjohnston.com)
+
+
+Summary: This will copy all your google bookmarks to delicious keeping ALL tags, dates, urls from google. All the other methods I found that tried to do this failed to keep all the tags, so I wrote this to do it right.
+
+1. Install pydelicious from http://code.google.com/p/pydelicious/ 
+
+2. Grab http://www.google.com/bookmarks/find?q=&output=rss&num=10000 while logged in to your google account and save it somewhere.
+
+3. run: python goomarkalicious.py <That_file_you_just_saved>
+
+4. Enter your delicious username/pass when prompted
+
+5. Wait a while (the script is slow so that delicious doesn't throttle and block it)
+
+
